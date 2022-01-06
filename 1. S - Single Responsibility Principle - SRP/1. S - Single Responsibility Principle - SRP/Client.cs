@@ -20,8 +20,4 @@
 
     }
 
-    public void Notify()
-    {
-        Console.WriteLine("Notificando o cliente.");
-    }
 }
