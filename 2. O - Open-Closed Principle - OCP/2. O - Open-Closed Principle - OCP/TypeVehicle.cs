@@ -1,0 +1,5 @@
+﻿enum TypeVehicle
+{
+    CAR,
+    MOTORCYCLE
+}
