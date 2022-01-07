@@ -1,4 +1,4 @@
-﻿class Motorcycle : IVehicle
+﻿class Motorcycle : IVehicleMotorcycle
 {
     private string color;
     private int year;
@@ -7,10 +7,6 @@
     public Motorcycle(string color, int year, double engine)
     {
         ConfigureMotorcycle(color, year, engine);
-    }
-
-    public void ConfigureCar(string color, int year, double engine, int seats, int doors)
-    {
     }
 
     public void ConfigureMotorcycle(string color, int year, double engine)

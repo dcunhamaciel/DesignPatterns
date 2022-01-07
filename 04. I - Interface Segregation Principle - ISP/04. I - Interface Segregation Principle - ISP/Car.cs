@@ -1,4 +1,4 @@
-﻿class Car : IVehicle
+﻿class Car : IVehicleCar
 {
     private string color;
     private int year;
@@ -22,10 +22,6 @@
         Console.WriteLine($"Criando carro ano {year}, motor {engine} da cor {color}.");
 
         StartVehicle();
-    }
-
-    public void ConfigureMotorcycle(string color, int year, double engine)
-    {
     }
 
     public void StartVehicle()
