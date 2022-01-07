@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. D - Dependency Inversion Principle - DIP", "05. D - Dependency Inversion Principle - DIP\05. D - Dependency Inversion Principle - DIP.csproj", "{71E95A90-F973-4D6F-82C2-2148CE0FE2F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71E95A90-F973-4D6F-82C2-2148CE0FE2F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71E95A90-F973-4D6F-82C2-2148CE0FE2F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71E95A90-F973-4D6F-82C2-2148CE0FE2F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71E95A90-F973-4D6F-82C2-2148CE0FE2F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0E8AEE2-A270-4CE1-8228-BA387354C9D8}
+	EndGlobalSection
+EndGlobal
