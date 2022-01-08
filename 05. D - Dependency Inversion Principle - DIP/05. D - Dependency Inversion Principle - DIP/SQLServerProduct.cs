@@ -1,4 +1,4 @@
-﻿class SQLServerProduct
+﻿class SQLServerProduct : IDbProduct
 {
     public string GetProductById(string id)
     {

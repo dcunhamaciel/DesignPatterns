@@ -2,7 +2,7 @@
 {
     public void Pay(string id)
     {
-        SQLServerProduct product = new SQLServerProduct();
+        IDbProduct product = DbProductFactory.Create();
         string productData = product.GetProductById(id);
         Console.WriteLine(productData);
     }
